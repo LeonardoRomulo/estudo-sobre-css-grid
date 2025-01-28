@@ -189,7 +189,7 @@ footer {
 @media (max-width: 428px) {
 
     header {
-        height: 80px;
+        height: 100px;
     }
 
     .container-header {
