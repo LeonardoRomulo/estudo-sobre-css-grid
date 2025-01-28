@@ -30,6 +30,7 @@ header {
 .icon  {
     width: 40px;
     height: 40px;
+    padding: 7px
 }
 
 nav {
@@ -188,13 +189,16 @@ footer {
 @media (max-width: 428px) {
 
     header {
-        padding: 12px;
+        height: 80px;
     }
 
     .container-header {
         flex-direction: column;
         justify-content: space-evenly;
         gap: 20px;
+    }
+    .menu {
+        font-size: 12px;
     }
 
     .secao h2 {
