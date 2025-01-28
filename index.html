@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Document</title>
+    </head>
+    <body>
+
+        <header>
+            <div class="container-header limitar-secao">
+                <div class="container-logo">
+                    <img src alt="logo">
+                </div>
+                <nav class="menu">
+                    <a href="index.html#home">Home</a>
+                    <a href="index.html#sobre">Sobre</a>
+                    <a href="index.html#contato">Contato</a>
+                </nav>
+            </div>
+        </header>
+        
+        <section class="secao"id="home">
+            <h2 >Venha conhecer Angra dos Reis</h2>
+            <p>Reserve agora com desconto na pousada Web e venha viver  um momento mágico</p>
+            <div class="container limitar-secao">
+                <div class="box-destaque">
+                    <img src="assets/img1.jpg" alt>
+                </div>
+                <div class="box">
+                    <img src="assets/img3.jpg" alt>
+                </div>
+                <div class="box">
+                    <img src="assets/img4.jpg" alt>
+                </div>
+                <div class="box">
+                    <img src="assets/quarto-casal3.jpg" alt>
+                </div>
+                <div class="box-responser">
+                    <img src="assets/quarto-familia3.jpg" alt>
+                </div>
+            </div>
+        </section>
+        <main>
+            <section id="contato" class="formulario limitar-secao">
+                <h2 class="titulo-informacao">Entre em contato conosco</h2>
+                <p class="titulo-informacao">Preencha os seus dados e retornaremos em breve:</p>
+                <form method="post" action>
+                    <fieldset>
+                        <legend>Dados pessoais</legend>
+                        <div class="campo">
+                            <label for>Nome</label>
+                            <input type="text" name="nome" required
+                                placeholder="Digite seu nome completo aqui">
+                        </div>
+                        <div class="campo">
+                            <label for>Data de Nascimento</label>
+                            <input type="date" name="data_nascimento" required>
+                        </div>
+                        <div class="campo">
+                            <label for>CPF</label>
+                            <input type="text" name="CPF"
+                                placeholder="12345678901" required
+                                maxlength="11">
+                        </div>
+                        <div class="campo">
+                            <label for>CEP</label>
+                            <input type="text" name="CEP" placeholder="12345678"
+                                maxlength="8">
+                        </div>
+                    </fieldset>
+                    <button type="submit">Enviar</button>
+                </form>
+            </section>
+        </main>
+        <section class="secao" id="sobre">
+            <h2>Sobre</h2>
+            <p>Somos a pousada com o melhor ranque no booking.com, com restaurantes 5 estrelas, passeios turísticos inclusos e quarto muito confortável. Estamos a 30 anos oferecendo o melhor serviço de hospedagem de Angra dos Reis.</p>
+            <div class="container-sobre limitar-secao">
+                <div class="card">
+                    <img src="assets/montanha .jpg" alt="">
+                    <p>Cartões postais únicos que vão te deixar encantado  e deslumbrado por Angra dos Reis</p>
+                </div>
+            
+                <div class="card">
+                    <img src="assets/turistas.jpg" alt="">
+                    <p>Guias turísticos capacitados com mais de 10 anos de experiência para proporcionar a melhor experiência para sua viajem.</p>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="container-footer limitar-secao">
+                <p>&copy; 2022</p>
+            </div>
+        </footer>
+    </body>
+</html>
